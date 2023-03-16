@@ -9,6 +9,7 @@ import Form from "./Form";
 import { useDispatch } from "react-redux";
 import { setMode } from "state";
 import { DarkMode, LightMode } from "@mui/icons-material";
+import FlexBetween from "components/FlexBetween";
 
 const LoginPage = () => {
   const theme = useTheme();
@@ -22,12 +23,12 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
         p="1rem 6%"
         textAlign="center"
+
       >
+        <FlexBetween>
         <Typography fontWeight="bold" fontSize="32px" color="primary">
           !Hello World!
         </Typography>
-      </Box>
-      <Box width="100%" display="flex" justifyContent="flex-start">
       <IconButton onClick={() => dispatch(setMode())}>
         {theme.palette.mode === "dark" ? (
           <DarkMode sx={{ fontSize: "25px" }} />
@@ -35,7 +36,9 @@ const LoginPage = () => {
           <LightMode sx={{ color: dark, fontSize: "25px" }} />
         )}
       </IconButton>
+      </FlexBetween>
       </Box>
+      
       <Box
         width={isNonMobileScreens ? "50%" : "93%"}
         p="2rem"
