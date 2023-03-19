@@ -7,7 +7,7 @@ const AdvertWidget = (props) => {
   const dark = palette.neutral.dark;
   const main = palette.neutral.main;
   const medium = palette.neutral.medium;
-  const imgsrc = "http://localhost:3001/assets/info"+props.img+".jpeg";
+  const imgsrc = "https://helloworld-backend-only.onrender.com/assets/info"+props.img+".jpeg";
 
   return (
     <WidgetWrapper>
