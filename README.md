@@ -6,7 +6,7 @@ Being one of my first complete MERN projects right after learning the stack, I w
 
 For Frontend:
 It is a simple and responsive UI that has light mode and dark mode implementations like commercial social media apps, where user login-signup, can upload posts, interact with other users' posts, etc.
--> Redux (global state management)
+-> Redux (global state management) <br>
 -> Formik (form handling)
 -> React-Dropzone (for uploading media)
 -> MUI icons (general purpose icons like switching between dark mode and light mode, likes, etc.)
