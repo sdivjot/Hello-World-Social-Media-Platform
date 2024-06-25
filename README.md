@@ -1,7 +1,5 @@
 # Hello-World-Social-Media-Platform
 
-Hello World Deployed site: https://coruscating-meerkat-b20bc0.netlify.app/
-
 Being one of my first complete MERN projects right after learning the stack, I wanted to go for something that has a lot of things implemented, so I tried to add a variety of libraries such as Redux, MUI, styling, etc., along with a secure backend that takes care of user management and login signup, that is implemented using JWT authentication.
 
 For Frontend:
